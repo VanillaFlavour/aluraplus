@@ -1,0 +1,156 @@
+/* Global Usage */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --white-primary: #FFFFFF;
+    --gray-secondary: #C0C0C0;
+    --button-blue: #167BF7;
+    --background: #00030c;
+    --blue-button-effect: #3c92fa;
+    --hover-effect: #ff0000;
+    --font-primary: "Inter Tight";
+}
+
+
+/* Page Sections */
+
+body {
+    background-color: var(--background);
+    color: var(--white-primary);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.primary {
+    background: url('../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__box{
+    margin: 0 6em;
+}
+
+.container__title{
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.container__image{
+    margin: 1em 0 2em 0;
+}
+
+.container__buttons {
+    display: block;
+    background-color: var(--button-blue);
+    border-radius: 2px;
+    padding: 1em;
+    color: var(--white-primary);
+    margin-bottom: 1em;
+}
+
+.container__buttons:hover{
+    background-color: var(--blue-button-effect);
+    color: var(--background);
+}
+
+.container__buttons__second{
+    background-color: transparent;
+    border: 2px solid var(--white-primary);
+}
+
+.container__aviso{
+    font-size: .75em;
+    color: var(--gray-secondary);
+}
+
+.secondary{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secondary__image{
+    width: 80%;
+}
+
+.description__title{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: .1em;
+}
+
+.description__text{
+    color: var(--gray-secondary);
+}
+
+.secondary__button{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description{
+    padding: 2em;
+}
+
+.dispositives{
+    text-align: center;
+}
+
+.dispositives__list{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.dispositives__title{
+    font-size: 3em;
+}
+
+.list__item{
+    font-size: 2em;
+    margin: 3em 3em;
+}
+
+.foot{
+    text-align: center;
+}
+
+.foot__list{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.list__link a{
+    color: var(--white-primary);
+    margin-left: 1em;
+}
+
+.list__link a:hover{
+    color: var(--hover-effect);
+}
+
+.list__link a:active{
+    color: purple;
+}
+
+.foot__text{
+    color: var(--gray-secondary);
+    font-size: .875em;
+    margin: 1.5em 0;
+}
