@@ -154,3 +154,44 @@ body {
     font-size: .875em;
     margin: 1.5em 0;
 }
+
+@media screen and (max-width:768px) {
+    .container{
+        display: block;
+        background-image: none;
+        height: 65vh;
+    }
+
+    .container__image{
+        width: 50vw;
+    }
+
+    .container__box{
+        margin: 2em 2em;
+    }
+
+    .secondary{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secondary__image{
+        width: 50vw;
+    }
+
+    .dispositives__list{
+        display: block;
+    }
+
+    .foot__list{
+        display: block;
+    }
+
+    .foot{
+        margin: 0 3em;
+    }
+
+    .list__item{
+        margin: 1em 3em;
+    }
+}
